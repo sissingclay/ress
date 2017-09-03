@@ -1,0 +1,23 @@
+{
+  "name": "ress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "browser-sync start --server 'build' --serveStatic 'build'",
+    "server": "browser-sync start --server 'demo' --serveStatic 'demo'",
+    "nunjucks": "nunjucks --unsafe --watch *.html -p src/template -o build",
+    "css": "cp src/css/main.css build/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "nunjucks": "^3.0.1",
+    "nunjucks-cli": "^0.5.1",
+    "polymer-cli": "^1.5.2",
+    "postcss": "^6.0.10",
+    "postcss-cli": "^4.1.0"
+  }
+}
