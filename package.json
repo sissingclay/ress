@@ -7,8 +7,7 @@
     "serve": "browser-sync start --server 'build' --serveStatic 'build'",
     "server": "browser-sync start --server 'demo' --serveStatic 'demo'",
     "nunjucks": "nunjucks --unsafe --watch *.html -p src/template -o build",
-    "css": "cp src/css/main.css build/css",
-    "restart": "pm2 restart hello"
+    "css": "cp src/css/main.css build/css"
   },
   "keywords": [],
   "author": "",
