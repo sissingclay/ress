@@ -12,7 +12,8 @@ import { AppComponent } from './app.component';
   imports: [
     RouterModule.forRoot([
       { path: '', loadChildren: './home/home.module#HomeModule', pathMatch: 'full' },
-      { path: 'shop', loadChildren: './shop/shop.module#ShopModule' },
+      { path: 'about', loadChildren: './about/about.module#AboutModule' },
+      { path: 'service', loadChildren: './service/service.module#ServiceModule' },
       { path: '**', loadChildren: './home/home.module#HomeModule' },
     ]),
     HttpClientModule,

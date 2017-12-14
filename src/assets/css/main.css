@@ -2869,7 +2869,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 8.5em 0 4em 0;
 		position: relative;
 	}
 
@@ -3402,9 +3402,9 @@
 		background: rgba(0, 0, 0, 0.75);
 		color: #aed6f1;
 		cursor: default;
-		height: 3.25em;
+		height: 6.25em;
 		left: 0;
-		line-height: 3.25em;
+		line-height: 6.25em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -3420,7 +3420,7 @@
 			margin: 0;
 			padding: 0;
 			position: absolute;
-			top: 0;
+			top: 16px;
 		}
 
 			#header > .logo a {
@@ -3534,8 +3534,8 @@
 		}
 
 		#header {
-			height: 44px;
-			line-height: 44px;
+			height: 95px;
+			line-height: 95px;
 		}
 
 			#header > h1 {
@@ -3708,8 +3708,8 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		border-top: 0;
-		min-height: 60vh;
-		height: 60vh !important;
+		min-height: 70vh;
+		height: 70vh !important;
 		position: relative;
 		text-align: center;
 		overflow: hidden;
@@ -3866,6 +3866,10 @@
 		padding: 6em 2em 4em 2em;
 	}
 
+	#footer p {
+		margin-bottom: 5px;
+	}
+
 		#footer > .inner {
 			margin: 0 auto;
 			width: 80em;
@@ -3877,6 +3881,10 @@
 			margin: 0 0 2em 0;
 			padding: 0;
 			text-align: center;
+		}
+
+		#footer .copyright .icons {
+			margin-top: 10px;
 		}
 
 			#footer .copyright .icons a {

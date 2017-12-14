@@ -1,10 +1,11 @@
 <header id="header" class="reveal">
 	<div class="logo">
 		<a routerLink="/">
-			<img src="/assets/images/logo_ress.gif" width="200" title="Ress">
+			<img src="/assets/images/logo-ress2.svg" width="120" title="Ress" alt="RESS">
 		</a>
 	</div>
 	<a href="#" (click)="active = !active; false;">Menu</a>
+	<div style="height: 10px;background-color: #fae900;"></div>
 </header>
 
 <nav id="menu" [ngClass]="{'visible': active}">
@@ -13,10 +14,10 @@
 			<a routerLink="/">Home</a>
 		</li>
 		<li>
-			<a routerLink="shop">Shop</a>
+			<a routerLink="about">About</a>
 		</li>
 		<li>
-			<a routerLink="other">Other</a>
+			<a routerLink="service">Service</a>
 		</li>
 	</ul>
 	<a href="#" (click)="active = !active; false;" class="close"></a>
@@ -30,12 +31,19 @@
 
 <footer id="footer">
 	<section class="copyright">
+		<p>Unit 30, Katjiepiering Complex Brombeer Road Kempton Park 1619 - Unit 9 , 48 Lighthouse Road Bluff Durban 4052 Tel: 031 466 1287</p>
+		<p>
+			Unit 24, The Crest Business Park,
+			Dawood Close Road Ballito 4420.
+			Contact No: +27O32O586 4012 Cell: +27O71O866 7107
+			Toll Free in SA : 0861 105 777
+		</p>
+		<p>&copy; RESS. All rights reserved.</p>
 		<ul class="icons">
 			<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 			<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 			<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 			<li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
 		</ul>
-		<p>&copy; RESS. All rights reserved.</p>
 	</section>
 </footer>
